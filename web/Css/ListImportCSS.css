@@ -1,0 +1,125 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 4, 2024, 1:27:41 PM
+    Author     : Thanh Cong
+*/
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #141718;
+}
+
+.container{
+    margin: 0!important;
+    display: flex;
+    background-color: #141718;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#sidebar {
+    width: 20%;
+    background: #232627;
+    height: 95vh; /* Full viewport height */
+    padding: 15px 24px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+#sidebar h1 {
+    color: red;
+    font-size: 23px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar-button {
+    font-family: fantasy;
+    background: #232627;
+    padding: 14px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+}
+
+.sidebar-button:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.content {
+    width: 80%;
+    position: relative;
+    border-radius: 15px;
+    background-color: #232627;
+    margin: 15px;
+}
+
+.head{
+    display: ruby-text;
+}
+
+.b input{
+    margin-right: 10px;
+}
+
+.search-ID input{
+    width: 250px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #232627;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    color: red;
+}
+
+.line{
+    width: 100%;
+    position: relative;
+    background-color: #4c4d4e;
+    height: 1px;
+    margin-top: 20px;
+}
+
+.listImport table{
+    background-color: #232627;
+    width: 96%;
+    overflow-y: auto;
+    height: auto;
+    margin: 2%;
+}
+
+.header-ID {
+    color: white;
+    background-color: #ff3b30 !important;
+}
+
+.header-ID th {
+    text-align: center;
+    padding: 8px;
+}
+
+.importDetails{
+    width: 96%;
+}
+
+.importDetails td {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 15px;
+}

@@ -1,0 +1,16 @@
+
+body {
+margin: 0;
+line-height: normal;
+}
+
+.logo-icon img{
+width: 48px;
+position: relative;
+height: 48px;
+overflow: hidden;
+flex-shrink: 0;
+}
+.nigiri-house {
+    margin: -2% 10% 0% 4%;
+}

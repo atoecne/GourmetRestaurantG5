@@ -1,0 +1,188 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 2, 2024, 1:13:54 AM
+    Author     : Thanh Cong
+*/
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.content{
+    min-height: 100%;
+    background-color: #141718;
+}
+
+.header{
+    padding: 15px;
+    color: white;
+}
+
+.container{
+    position: relative;
+    display: flex;
+}
+
+.search-ID{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-ID label{
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: inherit;
+}
+
+.search-ID input{
+    padding-right: 130px;
+}
+
+.product-info {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.P-name {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.id-and-cost {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cost {
+    margin-left: 10px;
+}
+
+.header-ID{
+    background-color: #ff3b30 !important;
+}
+
+.header-ID th{
+    text-align: center;
+    padding: 8px;
+}
+
+#importDetails td {
+    text-align: center;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.importproduct {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    background-color: #232627;
+    width: 79%;
+    height: 550px;
+    overflow-y: auto;
+}
+
+.importproduct .quantity-P input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    color: white;
+    width: auto;
+    max-width: 80px;
+}
+
+.inforimport {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 80%;
+    background-color: #232627;
+    color: white;
+    width: 25%;
+    height: 615px;
+    padding: 10px;
+}
+
+.inforimport .tde{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: inherit;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.inforimport div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inforimport label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.inforimport input[type="text"], .inforimport input[type="date"] {
+    flex: 2;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inforimport input[type="submit"] {
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reset{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.error {
+    width: 100%;
+    position: relative;
+    background-color: #141718;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 98%;
+}
+
+.error p {
+    color: #ee362b;
+    margin-left: 35px;
+}
